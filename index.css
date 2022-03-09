@@ -1,0 +1,94 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.number-input {
+    padding: 60px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+.buttons {
+    padding: 50px;
+}
+
+
+#num1-el, #num2-el {
+    font-family: inter;
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.results {
+    background: black;
+    padding: 18%;
+    padding-top: 10px;
+    height: 40vh;
+    color: white;
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.display {
+    display: none;
+}
+
+.heading {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: white;
+
+}
+
+.unit-number { 
+    font-family: Inter;
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+
+}
