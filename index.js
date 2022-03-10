@@ -52,30 +52,30 @@ let mulmEl = document.getElementById("mulm-el")
 
 function massPounds() {
     let result = num11 / num12
-    poundEl.textContent = "Sum: " + result
+    poundEl.textContent = "Pounds to Kilograms: " + result
 }
 
 function massKilos() {
     let result = num9 * num10
-    kilosEl.textContent = "Sum: " + result
+    kilosEl.textContent = "Kilograms to Pounds: " + result
 }
 
 function multipleVolume() {
     let result = num7 * num8
-    multEl.textContent = "Sum: " + result
+    multEl.textContent = "Gallons to Liters: " + result
 }
 
 function divideVolume() {
     let result = num5 / num6
-    divEl.textContent = "Sum: " + result
+    divEl.textContent = "Liters to Gallons: " + result
 }
 
 function multiplyFeet() {
     let result = num3 * num4
-    mulvEl.textContent = "Sum: " + result
+    mulvEl.textContent = "Feet to Meters: " + result
 }
 
 function multiplyMeters() {
     let result = num1 * num2
-    mulmEl.textContent = "Sum: " + result
+    mulmEl.textContent = "Meters to Feet: " + result
 }

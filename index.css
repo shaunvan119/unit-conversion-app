@@ -22,13 +22,15 @@ span {
 }
 
 button {
-    margin: 20px 0;
+   
     background: white;
     color: black;
-    border: 1px solid black;
+    border: none;
     font-weight: bold;
     cursor: pointer;
-    padding: 5px 8px;
+    padding: 10px 8px;
+    border-radius: 20px;
+   
 }
 
 .number-input {
@@ -38,6 +40,12 @@ button {
 
 .buttons {
     padding: 50px;
+    
+}
+
+button:hover {
+    background: #b1b3f3;
+
 }
 
 
